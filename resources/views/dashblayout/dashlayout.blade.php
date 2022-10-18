@@ -202,7 +202,7 @@ input[type="radio"][class="myRadio"] {
   
   <style>
 .content-wrapper {
-    background: #222437;
+    background: #002a66;
 }
 
 .g-login {
@@ -229,7 +229,7 @@ input[type="radio"][class="myRadio"] {
   <body class="dark-theme">
     <div class="container-scroller">
       <!-- partial:../../partials/_navbar.html -->
-      <div id="loader"  class="text-center"  style="position:fixed; display: none; left: 0; right: 0; top: 0; bottom: 0; z-index: 9999; background-color: #222437; opacity: 0.855;">
+      <div id="loader"  class="text-center"  style="position:fixed; display: none; left: 0; right: 0; top: 0; bottom: 0; z-index: 9999; background-color: #002a66; opacity: 0.855;">
             <div class="text-info text-center">
                 <img class="" style=" position: absolute; top: 50%; left: 50%; margin-top: -40px; margin-left: -40px;" src="{{asset('dashb/images/logo-icon.png')}}" height="auto" width="60px">
             </div>
