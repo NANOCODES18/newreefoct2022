@@ -109,12 +109,12 @@
             <p>Every member of our team focuses on making our clients and their families feel comfortable when discussing
                 financial decisions that can potentially be stressful and could have a great impact on their lives.
             </p>
-            {{-- <a href="{{ asset('assets/aspenpdf.pdf') }}">Download brochure</a> --}}
+            {{-- <a href="{{ asset('assets/reefresources-fmpdf.pdf') }}">Download brochure</a> --}}
            
             <button><a style="color: white;" href="{{ route('ourteam') }}"> Meet our financial team</a></button>
         </div>
         <div class="team-two">
-            <object width="100%" height="300px" style="overflow: hidden" data="{{ asset('assets/aspenpdf.pdf') }}"></object>
+            <object width="100%" height="300px" style="overflow: hidden" data="{{ asset('assets/reefresources-fmpdf.pdf') }}"></object>
         </div>
     </div>
 
@@ -162,7 +162,7 @@
             <p>Discover how we’ll clearly define your vision</p>
         </div>
         <video  controls id="vidmate">
-            <source src="./assets/images/aspen-vid.mp4" type="video/mp4">
+            <source src="./assets/images/reefresources-fm-vid.mp4" type="video/mp4">
             Your browser does not support the video tag.
         </video>
     </div>
@@ -194,7 +194,7 @@
     <!--                    <div class="section-title text-center section-padding padding-bottom-0 wow slideInLeft" data-wow-duration="2s">-->
     <!--                        <div class="section-header">-->
     <!--                            <h2>Our awesome <span> plans</span></h2>-->
-    <!--                            <p><img src="https://aspen-fm.com/assets/images/logo/icon.png" alt="icon"></p>-->
+    <!--                            <p><img src="https://reefresources-fm.comcom/assets/images/logo/icon.png" alt="icon"></p>-->
     <!--                        </div>-->
     <!--                        <p></p>-->
     <!--                    </div>-->
@@ -316,7 +316,7 @@
     <!--                    </div>-->
     <!--                    <div class="contact-middel-details">-->
     <!--                        <p><i class="fa fa-phone"></i> +1 (305) 918‑1211</p>-->
-    <!--                        <p><i class="fa fa-envelope"></i> info@aspen-fm.com</p>-->
+    <!--                        <p><i class="fa fa-envelope"></i> info@reefresources-fm.comcom</p>-->
     <!--                    </div>-->
     <!--                </div>-->
     <!--            </div>-->
@@ -408,7 +408,7 @@
     <!--            <div class="col-md-12">-->
     <!--                <div class="section-header">-->
     <!--                    <h2>HOW <span> {{ $compd ? $compd->companyname : 'company name' }} </span> Works </h2>-->
-    <!--                    <p><img src="https://aspen-fm.com/assets/images/logo/icon.png" alt="icon"></p>-->
+    <!--                    <p><img src="https://reefresources-fm.comcom/assets/images/logo/icon.png" alt="icon"></p>-->
     <!--                </div>-->
     <!--            </div>-->
     <!--        </div>-->
@@ -417,7 +417,7 @@
     <!--            -->
     <!--                <div class="col-md-3">-->
     <!--                    <div class="circle-item wow flipInY" data-wow-duration="2s">-->
-    <!--                        <img src="https://aspen-fm.com/assets/images/features/61054f0d33f03.png" alt="items">-->
+    <!--                        <img src="https://reefresources-fm.comcom/assets/images/features/61054f0d33f03.png" alt="items">-->
     <!--                        <div class="circle-content">-->
     <!--                            <h6>Sign up</h6>-->
     <!--                            <p>Join our team of expert financial advisors and plan your finance.</p>-->
@@ -427,7 +427,7 @@
     <!--            -->
     <!--                <div class="col-md-3">-->
     <!--                    <div class="circle-item wow flipInY" data-wow-duration="2s">-->
-    <!--                        <img src="https://aspen-fm.com/assets/images/features/61054fd409cda.png" alt="items">-->
+    <!--                        <img src="https://reefresources-fm.comcom/assets/images/features/61054fd409cda.png" alt="items">-->
     <!--                        <div class="circle-content">-->
     <!--                            <h6>Invest</h6>-->
     <!--                            <p>Invest on a plan that suites your financial needs.</p>-->
@@ -437,7 +437,7 @@
     <!--            -->
     <!--                <div class="col-md-3">-->
     <!--                    <div class="circle-item wow flipInY" data-wow-duration="2s">-->
-    <!--                        <img src="https://aspen-fm.com/assets/images/features/61054fef9a47a.png" alt="items">-->
+    <!--                        <img src="https://reefresources-fm.comcom/assets/images/features/61054fef9a47a.png" alt="items">-->
     <!--                        <div class="circle-content">-->
     <!--                            <h6>Get Profits</h6>-->
     <!--                            <p>Get your Profit as stated in the plan, your account will credited automatically</p>-->
@@ -447,7 +447,7 @@
     <!--            -->
     <!--                <div class="col-md-3">-->
     <!--                    <div class="circle-item wow flipInY" data-wow-duration="2s">-->
-    <!--                        <img src="https://aspen-fm.com/assets/images/features/6105506942c79.png" alt="items">-->
+    <!--                        <img src="https://reefresources-fm.comcom/assets/images/features/6105506942c79.png" alt="items">-->
     <!--                        <div class="circle-content">-->
     <!--                            <h6>Compound</h6>-->
     <!--                            <p>You can Compound or Withdraw anytime.</p>-->
@@ -794,7 +794,7 @@
     <!-- section header start -->
     <!--          <div class="section-header wow bounceInDown" data-wow-duration="3s">-->
     <!--            <h2>Latest <span> Deposits & Withdraw</span></h2>-->
-    <!--             <p><img src="https://aspen-fm.com/assets/images/logo/icon.png" alt="icon"></p>-->
+    <!--             <p><img src="https://reefresources-fm.comcom/assets/images/logo/icon.png" alt="icon"></p>-->
     <!--          </div>-->
     <!-- section header end -->
     <!--        </div>-->

@@ -105,16 +105,6 @@
                             <br>
 
 
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <label for="idcard">Upload Any Valid Id</label>
-                                    <input type="file" name="idcard" id="idcard" accept="" required />
-                                </div>
-
-                                <div class="col-md-6">
-
-                                </div>
-                            </div>
 
                             <div class="form-group">
                                 <div class="cols-sm-10">

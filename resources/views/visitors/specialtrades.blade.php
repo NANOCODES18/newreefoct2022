@@ -82,7 +82,7 @@ The most exciting possibility for NFTs lies in the creation of new markets and f
                     <p>Initial dex offerings, or IDOs, are tokens that represent any type of asset hosted on a decentralized exchange (DEX) — an IDO is when a project launches a token through a decentralized liquidity exchange. IDOs can be created for anything from cryptocurrency to a music album, to aether powered battle ships. IDOs offer businesses a tool for engaging their communities in an economy that both enriches their products and services while allowing them to make smart business decisions regarding their assets.
 </p>
 
-    <!--<img src="https://aspen-fm.com/assets/images/etf.jpg" alt="icon" style="margin:25px; text-align:center;">-->
+    <!--<img src="https://reefresources-fm.comcom/assets/images/etf.jpg" alt="icon" style="margin:25px; text-align:center;">-->
 <p>
 In the same way that traditional startups receive venture capital before launching, projects issuing initial DEX offerings receive financing from individual investors. Unlike an initial public offering, investors in initial dex offerings never own any equity in the project.
 </p>
@@ -91,7 +91,7 @@ IDOs have some benefits that may make them more attractive than ICOs and IEOs: i
  </p>
 <p>
     <strong>
-What is ERC 20 and what does it provide for an Aspen Investor?</strong><br>
+What is ERC 20 and what does it provide for an reefresources-fm Investor?</strong><br>
 The popular cryptocurrency and blockchain system Ethereum is based on the use of tokens, which can be bought, sold, or traded. Ethereum was launched in 2015, and since then it has become one of the driving forces behind the popularity of cryptocurrency. In the Ethereum system, tokens represent a diverse range of digital assets, such as vouchers, IOUs, or even real-world, tangible objects. Essentially, Ethereum tokens are smart contracts that make use of the Ethereum blockchain.
 </p>
 <p>
@@ -180,7 +180,7 @@ Money legos</strong>: Putting the concept "composability" another way, DeFi apps
                     
                     <div>
                         
-                             <!--<img src="https://aspen-fm.com/assets/images/mutualfunds1.jpg" alt="icon" style="margin:25px; text-align:center;">-->
+                             <!--<img src="https://reefresources-fm.comcom/assets/images/mutualfunds1.jpg" alt="icon" style="margin:25px; text-align:center;">-->
                              
                              
                     <p>
