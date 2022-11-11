@@ -512,7 +512,7 @@ class Userdashcontroller extends Controller
                         $ref_funds = Fund::where('userid', $checkref->olduseruserid)->first();
                         $bonus = $amount * $plan_from_db->refpercent / 100;
                         $ref_funds->balance = $ref_funds->balance + $bonus;
-                        $ref_funds->bonus  = $ref_funds->bonus + $bonus;
+                        $ref_funds->refbonus  = $ref_funds->refbonus + $bonus;
 
                         if ($ref_funds->save()) {
                             # code...

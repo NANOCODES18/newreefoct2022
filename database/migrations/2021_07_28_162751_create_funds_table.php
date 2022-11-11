@@ -28,6 +28,7 @@ class CreateFundsTable extends Migration
             $table->integer("totalprofit")->default(0);
             $table->integer("transfer")->default(0);
             $table->integer("bonus")->default(0);
+            $table->integer("refbonus")->default(0);            
             $table->integer("withdrawal_minimum")->default(0);
             $table->integer("withdrawal_maximum")->default(9999999);
 

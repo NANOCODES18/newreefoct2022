@@ -114,7 +114,7 @@
             <button><a style="color: white;" href="{{ route('ourteam') }}"> Meet our financial team</a></button>
         </div>
         <div class="team-two">
-            <object width="100%" height="300px" style="overflow: hidden" data="{{ asset('assets/reefresources-fmpdf.pdf') }}"></object>
+            <object width="100%" height="300px" style="overflow: hidden" data="{{ asset('assets/reef.pdf') }}"></object>
         </div>
     </div>
 
@@ -162,7 +162,7 @@
             <p>Discover how we’ll clearly define your vision</p>
         </div>
         <video  controls id="vidmate">
-            <source src="./assets/images/reefresources-fm-vid.mp4" type="video/mp4">
+            <source src="./assets/images/reef.mp4" type="video/mp4">
             Your browser does not support the video tag.
         </video>
     </div>
@@ -483,27 +483,27 @@
                                         <div class="testimonial-image-slider slider-nav text-center">
 
                                             <div class="sin-testiImage wow rotateIn" data-wow-duration="2s">
-                                                <img src="assets/images/tes1.JPEG" alt="slider">
+                                                <img src="assets/images/tes1.jpeg" alt="slider">
                                             </div>
 
                                             <div class="sin-testiImage wow rotateIn" data-wow-duration="2s">
-                                                <img src="assets/images/tes2.JPEG" alt="slider">
+                                                <img src="assets/images/tes2.jpeg" alt="slider">
                                             </div>
 
                                             <div class="sin-testiImage wow rotateIn" data-wow-duration="2s">
-                                                <img src="assets/images/tex3.JPEG" alt="slider">
+                                                <img src="assets/images/tex3.jpeg" alt="slider">
                                             </div>
 
                                             <div class="sin-testiImage wow rotateIn" data-wow-duration="2s">
-                                                <img src="assets/images/tes4.JPEG" alt="slider">
+                                                <img src="assets/images/tes4.jpeg" alt="slider">
                                             </div>
 
                                             <div class="sin-testiImage wow rotateIn" data-wow-duration="2s">
-                                                <img src="assets/images/tes5.JPEG" style="object-fit: cover;" alt="slider">
+                                                <img src="assets/images/tes5.jpeg" style="object-fit: cover;" alt="slider">
                                             </div>
 
                                             <div class="sin-testiImage wow rotateIn" data-wow-duration="2s">
-                                                <img src="assets/images/tes6.JPEG" alt="slider">
+                                                <img src="assets/images/tes6.jpeg" alt="slider">
                                             </div>
 
                                             <div class="sin-testiImage wow rotateIn" data-wow-duration="2s">

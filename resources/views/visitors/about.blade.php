@@ -33,11 +33,11 @@
                                 aided by a friend and
                                 associate David Williams they began managing discretionary assets with a fundamental belief
                                 in capitalism and free capital markets. Having started the fund with just $20 million and
-                                his vision for a well-renowned fund capable of managing investor's funds in various asset
+                                his vision for a well-renowned firm, capable of managing investor's funds in various asset
                                 classes ranging from real estate, forex markets, Oil, Gold, and Emerging technologies
                                 including Digital currencies & derivatives, while mitigating risk using well-structured
-                                strategies at various entries by our expert analysts the fund thrived & became a Billion
-                                dollar Fund. With David’s experience and the tenacity of Hieu, they were able to make great
+                                strategies at various entries. Hieu Jiang  succeded in his mission and now we have {{ $compd ? $compd->companyname : 'company name' }} with a team of expert analysts 
+                         . Also with David’s experience and the tenacity of Hieu, they were able to make great
                                 achievements. After the third year of inception, Mark Siegel came in as an expert marketer
                                 and strategist and with the efforts of this trio,
                                 {{ $compd ? $compd->companyname : 'company name' }} has since been
@@ -45,10 +45,10 @@
                                 In a high inflation rate environment of the last decade, institutional investors have
                                 steadily increased their allocations to the Fund in a bid to achieve greater returns in a
                                 diversified Fund. We are interested in successful and transparent partners that will create
-                                high trading and investment volume for we are proud to help many customers to make revenue
-                                as we provide real-time market data from leading analytical agencies.</p>
+                                high trading and investment volume as we are proud to help many customers to make revenue from our
+                                 real-time market data from leading analytical agencies.</p>
                             <p>
-                                In reefresources-fm, the security of your information& funds is of top most priority, hence we have
+                                In {{ $compd ? $compd->companyname : 'company name' }}, the security of your information& funds is of top most priority, hence we have
                                 provided 2FA to provide an extra layer of security as well as an efficient capital
                                 protection policy that reduces the risk involved to a great extent. We are in control of our
                                 investors experience as we operate using our own proprietary sophisticated trading
@@ -62,25 +62,25 @@
                                 selling, and flag pattern.
                                 We generate income for our clients by trading cryptocurrency using advanced techniques like
                                 futures (using long and shorts while maximizing leverage), arbitrage trading using
-                                specialized bots, investments in Binance launchpad projects, and polkastarter IDO amongst
+                                specialized bots, investments in Binance launchpad projects and polkastarter, ICO amongst
                                 other lucrative strategies while having your funds protected.
                             </p>
                             <p>
                                 {{ $compd ? $compd->companyname : 'company name' }} has had a very strong relationship
                                 with equity and funding
-                                providers since our inception, we have also had the experience of working across multiple
-                                sectors and offering a variety of full partner-led services from experienced professionals
+                                providers, since our inception, we have also had the experience of working multiple
+                                sectors and offering a variety of full partner-led services from experienced professionals, 
                                 with a passion for working on initial public and exchange offerings, IDO’s, DAO’s, DEFI,
                                 blue-chip stocks, smart contract applications, corporate finance transactions, delivering
                                 transactions on the best all-around investments services ranging from acquisitions, MBO,
                                 Growth and capital development, replacement capital, real estates funding and arranging long
-                                term financing. Whatever the investment capacity you have in mind, reefresources-fm is committed to
+                                term financing. Whatever the investment capacity you have in mind, {{ $compd ? $compd->companyname : 'company name' }} is committed to
                                 providing you with a ladder to successful investments as we bring billionaire strategies to
-                                the average man's doorstep. As at 31st December 2021, as a Fund, we had $165 Billion under
+                                the average man's doorstep. As at 31st December 2021, we had $165 Billion under
                                 our direction on behalf of 37,000 investor clients and over 1,350 advisers. In a world
-                                filled with financial uncertainties and inconsistencies, the pandemic that triggered a
+                                filled with financial uncertainties and inconsistencies and  the pandemic that triggered a
                                 historic stock market sell-off in March, shut down large sectors of the economy, and
-                                swallowed up millions of jobs, reefresources-fm Financial has been dedicated to being a global brand in
+                                swallowed up millions of jobs, {{ $compd ? $compd->companyname : 'company name' }} has been dedicated to being a global brand in
                                 financial management services performing expectedly with its forecasts from previous years.
                             </p>
                             <p>

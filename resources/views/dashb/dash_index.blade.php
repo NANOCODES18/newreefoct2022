@@ -285,14 +285,14 @@
                             </div>
                             <div class="d-sm-none">
                                 <h2 class="fw-extrabold h5">Referral Earning</h2>
-                                <h3 class="mb-1">{{ $all_ref->count() }}</h3>
+                                <h3 class="mb-1">{{ $funds->refbonus }}</h3>
                             </div>
                         </div>
                         <div class="col-12 col-xl-7 px-xl-0">
                             <div class="d-none d-sm-block">
                                 <h2 class="h6 text-gray-400 mb-0"> Referral Earning</h2>
                                 <h3 class="fw-extrabold mb-2"><i class="fa fa-usd"
-                                        aria-hidden="true"></i>{{ $funds->bonus }}</h3>
+                                        aria-hidden="true"></i>{{ $funds->refbonus }}</h3>
                             </div>
                             <small class="text-gray-500">
 
@@ -364,7 +364,7 @@
                                     @if ($user_deposits)
                                         @foreach ($user_deposits as $usr_deposits)
                                             <th class="text-gray-900" scope="row">
-                                                {{ Carbon\Carbon::parse($usr_deposits->created_at)->diffForHumans() }}
+                                                {{ Carbon\Carbon::parse($usr_deposits->depositDate )->diffForHumans() }}
                                             </th>
                                             <td class="fw-bolder text-gray-500">
                                                 {{ $usr_deposits->amount }}

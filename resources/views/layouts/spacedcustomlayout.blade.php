@@ -40,6 +40,7 @@
 				<link rel="stylesheet" href="{{ asset('assets/css/ion.rangeSlider.css') }}">
 				<link rel="stylesheet" href="{{ asset('assets/css/ranger-style.css') }}">
 				<link rel="stylesheet" href="{{ asset('assets/css/ion.rangeSlider.skinFlat.css') }}">
+
 				<style>
 								/* nav */
 								@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
@@ -585,11 +586,16 @@
 																<input type="checkbox" id="show-menu">
 																<label for="show-menu" class="menu-icon"><i class="fas fa-bars"></i></label>
 																<div class="content">
+																	
 																				<div class="logo"><a href="{{ route('index') }}"><img
 																																src="{{ asset('assets/images/logo/logo.png') }}"
 																																style="max-height:60px; width:80%;"></a>
+																																
+																																
 																				</div>
+																				
 																				<ul class="links">
+																					
 																								<li><a href="{{ route('index') }}">Home</a></li>
 																								<li><a href="{{ route('whatweinvestin') }}">What we invest in</a></li>
 																								<li><a href="{{ route('news') }}">NEWS</a></li>
@@ -619,8 +625,10 @@
 
 																												</ul>
 																								</li>
+																								
 
 																				</ul>
+																				<div id="google_translate_element"></div>
 																</div>
 																<!-- <label for="show-search" class="search-icon"><i class="fas fa-search"></i></label> -->
 																<!-- <form action="#" class="search-box">
@@ -692,6 +700,7 @@
     </div>
 </nav> --}}
 								<!--main menu section end-->
+								
 
 								@yield('body')
 
@@ -886,4 +895,51 @@
 
 <!-- Mirrored from reefresources-fm.comcom/ by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 07 Nov 2021 12:26:43 GMT -->
 
+<script>
+    var url = 'https://wati-integration-service.clare.ai/ShopifyWidget/shopifyWidget.js?591';
+    var s = document.createElement('script');
+    s.type = 'text/javascript';
+    s.async = true;
+    s.src = url;
+    var options = {
+  "enabled":true,
+  "chatButtonSetting":{
+      "backgroundColor":"#4dc247",
+      "ctaText":"Talk to us",
+      "borderRadius":"25",
+      "marginLeft":"0",
+      "marginBottom":"50",
+      "marginRight":"50",
+      "position":"left"
+  },
+  "brandSetting":{
+      "brandName":"Reefresources FM",
+      "brandSubTitle":"Typically replies within a day",
+      "brandImg":"https://reefresources-fm.com/assets/images/logo/logo.png",
+      "welcomeText":"Hi there!\nHow can I help you?",
+      "messageText":"Hello, I have a question about https://reefresources-fm.com",
+      "backgroundColor":"#0a5f54",
+      "ctaText":"Start Chat",
+      "borderRadius":"25",
+      "autoShow":false,
+      "phoneNumber":"{{ $compd ? $compd->companyphone : 'company phone' }}"
+  }
+};
+    s.onload = function() {
+        CreateWhatsappChatWidget(options);
+    };
+    var x = document.getElementsByTagName('script')[0];
+    x.parentNode.insertBefore(s, x);
+</script>
+
+<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+
+<script type="text/javascript">
+	function googleTranslateElementInit() {
+	  new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
+	}
+	</script>
+	
+	<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 </html>
